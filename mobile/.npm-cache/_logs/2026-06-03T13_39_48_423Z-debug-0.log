@@ -1,0 +1,43 @@
+0 verbose cli /usr/local/Cellar/node/25.2.1/bin/node /usr/local/bin/npm
+1 info using npm@11.6.2
+2 info using node@v25.2.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/apple/trustdriveApp/mobile/.npmrc
+5 silly config load:file:/Users/apple/.npmrc
+6 silly config load:file:/Users/apple/trustdriveApp/mobile/.npm-local/etc/npmrc
+7 verbose title npm install expo-blur expo-google-fonts/inter expo-font @react-native-async-storage/async-storage react-native-modal
+8 verbose argv "install" "expo-blur" "expo-google-fonts/inter" "expo-font" "@react-native-async-storage/async-storage" "react-native-modal"
+9 verbose logfile logs-max:10 dir:/Users/apple/trustdriveApp/mobile/.npm-cache/_logs/2026-06-03T13_39_48_423Z-
+10 verbose logfile /Users/apple/trustdriveApp/mobile/.npm-cache/_logs/2026-06-03T13_39_48_423Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 verbose stack Error: An unknown git error occurred
+14 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/@npmcli/git/lib/make-error.js:28:13)
+14 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/@npmcli/git/lib/spawn.js:37:26
+14 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+14 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/node_modules/@npmcli/git/lib/revs.js:18:22)
+14 verbose stack     at async /usr/local/lib/node_modules/npm/node_modules/pacote/lib/git.js:258:19
+14 verbose stack     at async withTempDir (/usr/local/lib/node_modules/npm/node_modules/@npmcli/fs/lib/with-temp-dir.js:21:14)
+14 verbose stack     at async /usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:539:22
+14 verbose stack     at async Promise.all (index 1)
+14 verbose stack     at async #add (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:528:5)
+14 verbose stack     at async #applyUserRequestsToNode (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:497:7)
+15 error code 128
+16 error An unknown git error occurred
+17 error command git --no-replace-objects ls-remote ssh://git@github.com/expo-google-fonts/inter.git
+18 error git@github.com: Permission denied (publickey).
+18 error fatal: Could not read from remote repository.
+18 error
+18 error Please make sure you have the correct access rights
+18 error and the repository exists.
+19 silly unfinished npm timer reify 1780493988782
+20 silly unfinished npm timer reify:loadTrees 1780493988783
+21 silly unfinished npm timer idealTree:userRequests 1780493988955
+22 verbose cwd /Users/apple/trustdriveApp/mobile
+23 verbose os Darwin 24.6.0
+24 verbose node v25.2.1
+25 verbose npm  v11.6.2
+26 verbose exit 128
+27 verbose code 128
+28 error A complete log of this run can be found in: /Users/apple/trustdriveApp/mobile/.npm-cache/_logs/2026-06-03T13_39_48_423Z-debug-0.log

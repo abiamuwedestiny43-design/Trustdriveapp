@@ -1,0 +1,110 @@
+0 verbose cli /usr/local/Cellar/node/25.2.1/bin/node /usr/local/bin/npm
+1 info using npm@11.6.2
+2 info using node@v25.2.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/apple/trustdriveApp/mobile/.npmrc
+5 silly config load:file:/Users/apple/.npmrc
+6 silly config load:file:/Users/apple/trustdriveApp/mobile/.npm-local/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/Users/apple/trustdriveApp/mobile/.npm-cache/_logs/2026-06-03T13_40_09_562Z-
+10 verbose logfile /Users/apple/trustdriveApp/mobile/.npm-cache/_logs/2026-06-03T13_40_09_562Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest expo-blur@~56.0.3
+16 silly packumentCache full:https://registry.npmjs.org/expo-blur cache-miss
+17 http cache https://registry.npmjs.org/expo-blur 120ms (cache hit)
+18 silly packumentCache full:https://registry.npmjs.org/expo-blur set size:768349 disposed:false
+19 silly fetch manifest expo@~56.0.8
+20 silly packumentCache full:https://registry.npmjs.org/expo cache-miss
+21 http cache https://registry.npmjs.org/expo 14ms (cache hit)
+22 silly packumentCache full:https://registry.npmjs.org/expo set size:3821379 disposed:false
+23 silly fetch manifest @expo/metro-runtime@*
+24 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro-runtime cache-miss
+25 http cache https://registry.npmjs.org/@expo%2fmetro-runtime 7ms (cache hit)
+26 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro-runtime set size:709831 disposed:false
+27 silly fetch manifest react@19.2.3
+28 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+29 http cache https://registry.npmjs.org/react 19ms (cache hit)
+30 silly packumentCache full:https://registry.npmjs.org/react set size:6679468 disposed:false
+31 silly fetch manifest react-dom@*
+32 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+33 http cache https://registry.npmjs.org/react-dom 25ms (cache hit)
+34 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8915576 disposed:false
+35 silly fetch manifest react@^19.2.7
+36 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+37 http cache https://registry.npmjs.org/react 17ms (cache hit)
+38 silly packumentCache full:https://registry.npmjs.org/react set size:6679468 disposed:false
+39 silly fetch manifest react-native@0.85.3
+40 silly packumentCache full:https://registry.npmjs.org/react-native cache-miss
+41 http cache https://registry.npmjs.org/react-native 38ms (cache hit)
+42 silly packumentCache full:https://registry.npmjs.org/react-native set size:15322758 disposed:false
+43 silly fetch manifest @react-native/jest-preset@0.85.3
+44 silly packumentCache full:https://registry.npmjs.org/@react-native%2fjest-preset cache-miss
+45 http cache https://registry.npmjs.org/@react-native%2fjest-preset 3ms (cache hit)
+46 silly packumentCache full:https://registry.npmjs.org/@react-native%2fjest-preset set size:187055 disposed:false
+47 silly fetch manifest @types/react@^19.1.1
+48 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+49 http cache https://registry.npmjs.org/@types%2freact 9ms (cache hit)
+50 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2623728 disposed:false
+51 silly fetch manifest react-native-web@*
+52 silly packumentCache full:https://registry.npmjs.org/react-native-web cache-miss
+53 http cache https://registry.npmjs.org/react-native-web 9ms (cache hit)
+54 silly packumentCache full:https://registry.npmjs.org/react-native-web set size:1090416 disposed:false
+55 silly fetch manifest react-native-webview@*
+56 silly packumentCache full:https://registry.npmjs.org/react-native-webview cache-miss
+57 http cache https://registry.npmjs.org/react-native-webview 6ms (cache hit)
+58 silly packumentCache full:https://registry.npmjs.org/react-native-webview set size:1355349 disposed:false
+59 silly fetch manifest undefined@expo-google-fonts/inter
+60 silly fetch manifest expo-font@~56.0.5
+61 silly packumentCache full:https://registry.npmjs.org/expo-font cache-miss
+62 http cache https://registry.npmjs.org/expo-font 5ms (cache hit)
+63 silly packumentCache full:https://registry.npmjs.org/expo-font set size:924133 disposed:false
+64 silly fetch manifest @react-native-async-storage/async-storage@2.2.0
+65 silly packumentCache full:https://registry.npmjs.org/@react-native-async-storage%2fasync-storage cache-miss
+66 http cache https://registry.npmjs.org/@react-native-async-storage%2fasync-storage 5ms (cache hit)
+67 silly packumentCache full:https://registry.npmjs.org/@react-native-async-storage%2fasync-storage set size:421043 disposed:false
+68 silly placeDep ROOT @react-native-async-storage/async-storage@2.2.0 OK for: mobile@1.0.0 want: 2.2.0
+69 silly placeDep ROOT expo-blur@56.0.3 OK for: mobile@1.0.0 want: ~56.0.3
+70 silly placeDep ROOT expo-font@56.0.5 OK for: mobile@1.0.0 want: ~56.0.5
+71 silly placeDep ROOT undefined@ OK for: mobile@1.0.0 want: expo-google-fonts/inter
+72 silly fetch manifest merge-options@^3.0.4
+73 silly packumentCache full:https://registry.npmjs.org/merge-options cache-miss
+74 http cache https://registry.npmjs.org/merge-options 3ms (cache hit)
+75 silly packumentCache full:https://registry.npmjs.org/merge-options set size:29796 disposed:false
+76 silly placeDep ROOT merge-options@3.0.4 OK for: @react-native-async-storage/async-storage@2.2.0 want: ^3.0.4
+77 silly fetch manifest is-plain-obj@^2.1.0
+78 silly packumentCache full:https://registry.npmjs.org/is-plain-obj cache-miss
+79 http cache https://registry.npmjs.org/is-plain-obj 3ms (cache hit)
+80 silly packumentCache full:https://registry.npmjs.org/is-plain-obj set size:17899 disposed:false
+81 silly placeDep ROOT is-plain-obj@2.1.0 OK for: merge-options@3.0.4 want: ^2.1.0
+82 verbose stack Error: An unknown git error occurred
+82 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/@npmcli/git/lib/make-error.js:28:13)
+82 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/@npmcli/git/lib/spawn.js:37:26
+82 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/node_modules/@npmcli/git/lib/revs.js:18:22)
+82 verbose stack     at async /usr/local/lib/node_modules/npm/node_modules/pacote/lib/git.js:258:19
+82 verbose stack     at async withTempDir (/usr/local/lib/node_modules/npm/node_modules/@npmcli/fs/lib/with-temp-dir.js:21:14)
+82 verbose stack     at async #fetchManifest (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1227:20)
+82 verbose stack     at async #nodeFromEdge (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1065:19)
+82 verbose stack     at async #buildDepStep (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:929:11)
+82 verbose stack     at async Arborist.buildIdealTree (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:182:7)
+82 verbose stack     at async Promise.all (index 1)
+83 error code 128
+84 error An unknown git error occurred
+85 error command git --no-replace-objects ls-remote ssh://git@github.com/expo-google-fonts/inter.git
+86 error git@github.com: Permission denied (publickey).
+86 error fatal: Could not read from remote repository.
+86 error
+86 error Please make sure you have the correct access rights
+86 error and the repository exists.
+87 silly unfinished npm timer reify 1780494009915
+88 silly unfinished npm timer reify:loadTrees 1780494009916
+89 verbose cwd /Users/apple/trustdriveApp/mobile
+90 verbose os Darwin 24.6.0
+91 verbose node v25.2.1
+92 verbose npm  v11.6.2
+93 verbose exit 128
+94 verbose code 128
+95 error A complete log of this run can be found in: /Users/apple/trustdriveApp/mobile/.npm-cache/_logs/2026-06-03T13_40_09_562Z-debug-0.log

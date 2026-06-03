@@ -1,0 +1,135 @@
+0 verbose cli /usr/local/Cellar/node/25.2.1/bin/node /usr/local/bin/npm
+1 info using npm@11.6.2
+2 info using node@v25.2.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/apple/trustdriveApp/mobile/.npmrc
+5 silly config load:file:/Users/apple/.npmrc
+6 silly config load:file:/Users/apple/trustdriveApp/mobile/.npm-local/etc/npmrc
+7 verbose title npm install expo-blur @react-native-async-storage/async-storage react-native-modal expo-font
+8 verbose argv "install" "expo-blur" "@react-native-async-storage/async-storage" "react-native-modal" "expo-font"
+9 verbose logfile logs-max:10 dir:/Users/apple/trustdriveApp/mobile/.npm-cache/_logs/2026-06-03T13_39_55_756Z-
+10 verbose logfile /Users/apple/trustdriveApp/mobile/.npm-cache/_logs/2026-06-03T13_39_55_756Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest expo-blur@~56.0.3
+16 silly packumentCache full:https://registry.npmjs.org/expo-blur cache-miss
+17 http cache https://registry.npmjs.org/expo-blur 108ms (cache hit)
+18 silly packumentCache full:https://registry.npmjs.org/expo-blur set size:768349 disposed:false
+19 silly fetch manifest expo@~56.0.8
+20 silly packumentCache full:https://registry.npmjs.org/expo cache-miss
+21 http cache https://registry.npmjs.org/expo 12ms (cache hit)
+22 silly packumentCache full:https://registry.npmjs.org/expo set size:3821379 disposed:false
+23 silly fetch manifest @expo/metro-runtime@*
+24 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro-runtime cache-miss
+25 http cache https://registry.npmjs.org/@expo%2fmetro-runtime 6ms (cache hit)
+26 silly packumentCache full:https://registry.npmjs.org/@expo%2fmetro-runtime set size:709831 disposed:false
+27 silly fetch manifest react@19.2.3
+28 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+29 http cache https://registry.npmjs.org/react 18ms (cache hit)
+30 silly packumentCache full:https://registry.npmjs.org/react set size:6679468 disposed:false
+31 silly fetch manifest react-dom@*
+32 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+33 http cache https://registry.npmjs.org/react-dom 22ms (cache hit)
+34 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8915576 disposed:false
+35 silly fetch manifest react@^19.2.7
+36 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+37 http cache https://registry.npmjs.org/react 17ms (cache hit)
+38 silly packumentCache full:https://registry.npmjs.org/react set size:6679468 disposed:false
+39 silly fetch manifest react-native@0.85.3
+40 silly packumentCache full:https://registry.npmjs.org/react-native cache-miss
+41 http cache https://registry.npmjs.org/react-native 37ms (cache hit)
+42 silly packumentCache full:https://registry.npmjs.org/react-native set size:15322758 disposed:false
+43 silly fetch manifest @react-native/jest-preset@0.85.3
+44 silly packumentCache full:https://registry.npmjs.org/@react-native%2fjest-preset cache-miss
+45 http cache https://registry.npmjs.org/@react-native%2fjest-preset 4ms (cache hit)
+46 silly packumentCache full:https://registry.npmjs.org/@react-native%2fjest-preset set size:187055 disposed:false
+47 silly fetch manifest @types/react@^19.1.1
+48 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+49 http cache https://registry.npmjs.org/@types%2freact 7ms (cache hit)
+50 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2623728 disposed:false
+51 silly fetch manifest react-native-web@*
+52 silly packumentCache full:https://registry.npmjs.org/react-native-web cache-miss
+53 http cache https://registry.npmjs.org/react-native-web 5ms (cache hit)
+54 silly packumentCache full:https://registry.npmjs.org/react-native-web set size:1090416 disposed:false
+55 silly fetch manifest react-native-webview@*
+56 silly packumentCache full:https://registry.npmjs.org/react-native-webview cache-miss
+57 http cache https://registry.npmjs.org/react-native-webview 6ms (cache hit)
+58 silly packumentCache full:https://registry.npmjs.org/react-native-webview set size:1355349 disposed:false
+59 silly fetch manifest undefined@expo-google-fonts/inter
+60 silly fetch manifest expo-font@~56.0.5
+61 silly packumentCache full:https://registry.npmjs.org/expo-font cache-miss
+62 http cache https://registry.npmjs.org/expo-font 4ms (cache hit)
+63 silly packumentCache full:https://registry.npmjs.org/expo-font set size:924133 disposed:false
+64 silly fetch manifest @react-native-async-storage/async-storage@2.2.0
+65 silly packumentCache full:https://registry.npmjs.org/@react-native-async-storage%2fasync-storage cache-miss
+66 http cache https://registry.npmjs.org/@react-native-async-storage%2fasync-storage 4ms (cache hit)
+67 silly packumentCache full:https://registry.npmjs.org/@react-native-async-storage%2fasync-storage set size:421043 disposed:false
+68 silly fetch manifest react-native-modal@*
+69 silly packumentCache full:https://registry.npmjs.org/react-native-modal cache-miss
+70 http fetch GET 200 https://registry.npmjs.org/react-native-modal 357ms (cache miss)
+71 silly packumentCache full:https://registry.npmjs.org/react-native-modal set size:undefined disposed:false
+72 silly placeDep ROOT @react-native-async-storage/async-storage@2.2.0 OK for: mobile@1.0.0 want: 2.2.0
+73 silly placeDep ROOT expo-blur@56.0.3 OK for: mobile@1.0.0 want: ~56.0.3
+74 silly placeDep ROOT expo-font@56.0.5 OK for: mobile@1.0.0 want: ~56.0.5
+75 silly placeDep ROOT react-native-modal@14.0.0-rc.1 OK for: mobile@1.0.0 want: *
+76 silly placeDep ROOT undefined@ OK for: mobile@1.0.0 want: expo-google-fonts/inter
+77 silly fetch manifest merge-options@^3.0.4
+78 silly packumentCache full:https://registry.npmjs.org/merge-options cache-miss
+79 silly fetch manifest react-native-animatable@1.4.0
+80 silly packumentCache full:https://registry.npmjs.org/react-native-animatable cache-miss
+81 http cache https://registry.npmjs.org/merge-options 5ms (cache hit)
+82 silly packumentCache full:https://registry.npmjs.org/merge-options set size:29796 disposed:false
+83 http fetch GET 200 https://registry.npmjs.org/react-native-animatable 270ms (cache miss)
+84 silly packumentCache full:https://registry.npmjs.org/react-native-animatable set size:undefined disposed:false
+85 silly placeDep ROOT merge-options@3.0.4 OK for: @react-native-async-storage/async-storage@2.2.0 want: ^3.0.4
+86 silly fetch manifest is-plain-obj@^2.1.0
+87 silly packumentCache full:https://registry.npmjs.org/is-plain-obj cache-miss
+88 http cache https://registry.npmjs.org/is-plain-obj 3ms (cache hit)
+89 silly packumentCache full:https://registry.npmjs.org/is-plain-obj set size:17899 disposed:false
+90 silly placeDep ROOT is-plain-obj@2.1.0 OK for: merge-options@3.0.4 want: ^2.1.0
+91 silly placeDep ROOT react-native-animatable@1.4.0 OK for: react-native-modal@14.0.0-rc.1 want: 1.4.0
+92 silly fetch manifest prop-types@^15.8.1
+93 silly packumentCache full:https://registry.npmjs.org/prop-types cache-miss
+94 http fetch GET 200 https://registry.npmjs.org/prop-types 27ms (cache miss)
+95 silly packumentCache full:https://registry.npmjs.org/prop-types set size:undefined disposed:false
+96 silly placeDep ROOT prop-types@15.8.1 OK for: react-native-animatable@1.4.0 want: ^15.8.1
+97 silly fetch manifest object-assign@^4.1.1
+98 silly packumentCache full:https://registry.npmjs.org/object-assign cache-miss
+99 silly fetch manifest react-is@^16.13.1
+100 silly packumentCache full:https://registry.npmjs.org/react-is cache-miss
+101 http fetch GET 200 https://registry.npmjs.org/object-assign 26ms (cache miss)
+102 silly packumentCache full:https://registry.npmjs.org/object-assign set size:undefined disposed:false
+103 http fetch GET 200 https://registry.npmjs.org/react-is 63ms (cache revalidated)
+104 silly packumentCache full:https://registry.npmjs.org/react-is set size:5404124 disposed:false
+105 silly placeDep ROOT object-assign@4.1.1 OK for: prop-types@15.8.1 want: ^4.1.1
+106 silly placeDep node_modules/prop-types react-is@16.13.1 OK for: prop-types@15.8.1 want: ^16.13.1
+107 verbose stack Error: An unknown git error occurred
+107 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/@npmcli/git/lib/make-error.js:28:13)
+107 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/@npmcli/git/lib/spawn.js:37:26
+107 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/node_modules/@npmcli/git/lib/revs.js:18:22)
+107 verbose stack     at async /usr/local/lib/node_modules/npm/node_modules/pacote/lib/git.js:258:19
+107 verbose stack     at async withTempDir (/usr/local/lib/node_modules/npm/node_modules/@npmcli/fs/lib/with-temp-dir.js:21:14)
+107 verbose stack     at async #fetchManifest (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1227:20)
+107 verbose stack     at async #nodeFromEdge (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1065:19)
+107 verbose stack     at async #buildDepStep (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:929:11)
+107 verbose stack     at async Arborist.buildIdealTree (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:182:7)
+107 verbose stack     at async Promise.all (index 1)
+108 error code 128
+109 error An unknown git error occurred
+110 error command git --no-replace-objects ls-remote ssh://git@github.com/expo-google-fonts/inter.git
+111 error git@github.com: Permission denied (publickey).
+111 error fatal: Could not read from remote repository.
+111 error
+111 error Please make sure you have the correct access rights
+111 error and the repository exists.
+112 silly unfinished npm timer reify 1780493996058
+113 silly unfinished npm timer reify:loadTrees 1780493996058
+114 verbose cwd /Users/apple/trustdriveApp/mobile
+115 verbose os Darwin 24.6.0
+116 verbose node v25.2.1
+117 verbose npm  v11.6.2
+118 verbose exit 128
+119 verbose code 128
+120 error A complete log of this run can be found in: /Users/apple/trustdriveApp/mobile/.npm-cache/_logs/2026-06-03T13_39_55_756Z-debug-0.log

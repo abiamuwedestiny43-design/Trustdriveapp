@@ -11,8 +11,8 @@ const OtpVerificationScreen = ({ navigation }) => {
     if (step === 1 && phone.length > 8) {
       setStep(2);
     } else if (step === 2 && otp.length === 6) {
-      // In a real app, this would verify the OTP and navigate to Main Home
-      alert('OTP Verified! Welcome to TrustDrive.');
+      // Navigate to the Main App Flow
+      navigation.replace('Main');
     }
   };
 
